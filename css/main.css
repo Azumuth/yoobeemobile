@@ -27,9 +27,8 @@ html {
 body{background: url('../img/yoobee_backdrop.png') no-repeat center center;
             background-size: cover;}
 
-{background: url('../img/purple-bg.png') no-repeat center center;
-            background-size: cover;}
-
+#main{max-width: 440px;
+    max-height: ;}
 
             
 #myCarousel{height:40%;}
@@ -39,6 +38,52 @@ body{background: url('../img/yoobee_backdrop.png') no-repeat center center;
 #buttons{margin-top: 20px;}
 
 #social{margin-bottom: 10px;}
+
+#cta{position: absolute;
+    bottom: 500px;
+    left:60px;}
+
+object.find-out-more{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 180px;
+    top: 50px;
+}
+
+#statement{
+    position: absolute;
+    top: 120px;
+    /*left:-40px;*/
+    /*color: white;*/
+    /*text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);*/
+    /*background-color: #FF7A15;*/
+    /*opacity: 0.5;*/
+}
+
+#statement .lockup span {
+    text-transform: uppercase;
+    background-color: #FF7A15;
+    color: white;
+    font-size: 2em;
+    display: inline-block;
+    padding: 4px;
+    line-height: 1em;
+    margin-bottom: 5px;
+}
+
+#statement .small-lockup p {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 4px;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    position: relative;
+    top: 42px;
+}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
